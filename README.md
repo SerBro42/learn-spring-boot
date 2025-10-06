@@ -25,3 +25,11 @@ info
 warning
 error
 off
+
+********************
+Instructions on how to generate and use executable JAR file:
+1. gradle clean build
+2. The location of JAR file is not listed among the created outputs by default. To find it, go to <project>/build/libs
+3. Open a terminal in that directory, or change your current directory to go there.
+4. java -jar <name_of_.JAR>
+5. If fails, make sure the Java version is up-to-date and that the port is not being used.
