@@ -33,3 +33,9 @@ Instructions on how to generate and use executable JAR file:
 3. Open a terminal in that directory, or change your current directory to go there.
 4. java -jar <name_of_.JAR>
 5. If fails, make sure the Java version is up-to-date and that the port is not being used.
+
+**********************
+URL to view the actuator
+~~~~~~~~
+http://localhost:8080/actuator
+~~~~~~~~
